@@ -14,6 +14,6 @@ public class Controller {
 
     @GetMapping
     public String hello(){
-        return "hello ! spring boot !" + dataSource;
+        return "hellospring boot !" + dataSource;
     }
 }
